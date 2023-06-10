@@ -9,12 +9,13 @@
 }
 body {
     font-family: monospace;
+    margin-right: 4px;
 }
 main{
     display: flex;
     flex-direction: column;
     padding: 3px;
-
+    margin-right: 4px;
 
 }
 h2{
