@@ -1,0 +1,71 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400&family=Fauna+One&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: monospace;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+
+
+}
+h2{
+    text-align: center;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.rotate{
+    width: 90px;
+    height: 90px;
+    background: orange;
+    margin: 5px;
+}
+
+.rotate:hover{
+    transform: rotate(20deg);
+
+}
+
+.scale{
+    width: 90px;
+    height: 90px;
+    background: purple;
+    margin: 5px;
+}
+.scale:hover{
+    transform: scale(.7);
+}
+
+.matrix{
+    width: 90px;
+    height: 90px;
+    background: blue;
+    margin: 5px;
+}
+
+.matrix:hover{
+    transform: matrix(1, 0, 0.5, 1, 15, 0);
+}
+
+.skew{
+    width: 90px;
+    height: 90px;
+    background: green;
+    margin: 5px;
+}
+.skew:hover{
+    transform: skew(-15deg, -20deg);
+}
