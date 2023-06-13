@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: lightslategrey;
+    color: white;
+
+}
+
+h2{
+    margin-top: 100px;
+}
+p{
+    margin-top: 50px;
+    font-size: 4rem;
+}
+
+.text{
+    background: right / 0% 100% no-repeat
+    linear-gradient(#4324dc, #4324dc);
+    transition: background-size 400ms;
+    cursor: pointer;
+}
+.text:hover{
+    padding: 5px;
+    border-radius: 4px;
+    background:  left / 100% 100% no-repeat linear-gradient(#4324dc, #4324dc) ;
+}
