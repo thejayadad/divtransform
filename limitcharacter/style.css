@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background: #11131e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.box{
+    width: 400px;
+    border-radius: 8px;
+    font-family: fantasy;
+    font-size: 30px;
+}
+textarea{
+    display: block;
+    width: 100%;
+    resize: none;
+    padding: 20px;
+    border: 2px solid orangered;
+    border-radius: 8px;
+    outline: none;
+    margin-top: 20px;
+}
+p{
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    color: #737373;
+}
