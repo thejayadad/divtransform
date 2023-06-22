@@ -1,14 +1,14 @@
 
 let text = document.getElementById("text")
 let result = document.getElementById("result")
-let limit = 10;
+let limit = 20;
 result.textContent = 0 + "/" + limit;
 
 text.addEventListener("input", function() {
     let textLength = text.value.length;
     result.textContent = textLength + "/" + limit;
 
-    if (textLength > limit){
+    if(textLength > limit){
         text.style.borderColor = "#ff2851";
         result.style.color = "#ff2851";
     } else{
