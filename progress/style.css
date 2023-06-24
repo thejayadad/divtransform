@@ -10,6 +10,7 @@ body{
 h2{
     text-align: center;
     margin-top: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .progress-bar{
     width: 450px;
