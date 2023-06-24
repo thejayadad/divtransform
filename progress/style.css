@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+h2{
+    text-align: center;
+    margin-top: 200px;
+}
+.progress-bar{
+    width: 450px;
+    height: 24px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.progress-bar::after{
+    content: "";
+    background: linear-gradient(135deg, #00fd37, #bbff00);
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    position: absolute;
+    animation: progress 2s linear forwards;
+}
+
+@keyframes progress {
+    100%{
+        width: 90%;
+    }
+}

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.retro {
+    color: orange;
+    text-shadow: -2px 2px 0 #292322,
+    -4px -4px 0 #f60,
+    -6px 6px 0 #292322,
+    -8px 8px 0 #fc0;  
+}
