@@ -12,6 +12,7 @@ h2{
     text-align: center;
     margin-top: 30px;
 }
+
 .container{
     display: flex;
     align-items: center;
@@ -45,10 +46,9 @@ h2{
     display: flex;
     justify-content: flex-end;
 }
-
 .close-b{
     border: none;
-    background: none;
+    background-color: none;
     color: orangered;
     font-size: 18px;
     cursor: pointer;
